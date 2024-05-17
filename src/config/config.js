@@ -1,2 +1,2 @@
 
-export const SERVER_BASE_URL = "http://localhost:8002/v1";
+export const SERVER_BASE_URL = "https://metayb-task-be.onrender.com/v1";
