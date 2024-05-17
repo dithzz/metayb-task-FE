@@ -1,0 +1,145 @@
+/* App.css */
+.app-container {
+  display: flex;
+  height: 100vh;
+}
+
+.page-content {
+  width: 90%;
+  padding: 20px;
+  height: auto;
+}
+
+
+/* LoginPage.css */
+
+/* Container styles */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Login box styles */
+.login-box {
+  width: 350px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 40px;
+}
+
+/* Heading styles */
+.login-box h2 {
+  margin-bottom: 30px;
+  color: #333; /* Dark text color */
+  text-align: center;
+}
+
+/* Form label styles */
+.login-box label {
+  color: #555; /* Lighter text color */
+}
+
+/* Form input styles */
+.login-box input[type='email'],
+.login-box input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+}
+
+/* Button styles */
+.login-box button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-box button[type='submit']:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+
+/* RegisterPage.css */
+
+/* Container styles */
+.register-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Register box styles */
+.register-box {
+  width: 350px;
+  background-color: #fff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  padding: 40px;
+}
+
+/* Heading styles */
+.register-box h2 {
+  margin-bottom: 30px;
+  color: #333; /* Dark text color */
+  text-align: center;
+}
+
+/* Form label styles */
+.register-box label {
+  color: #555; /* Lighter text color */
+}
+
+/* Form input styles */
+.register-box input[type='text'],
+.register-box input[type='email'],
+.register-box input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px;
+}
+
+/* Button styles */
+.register-box button[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff; /* Primary color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-box button[type='submit']:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+.list-unstyled > li {
+  margin-bottom : 10px
+}
+
+.job-card {
+  transition: background-color 0.3s ease !important;
+  cursor: pointer;
+}
+
+.selected {
+  background: lightgreen !important; /* Change this to the desired color */
+}
